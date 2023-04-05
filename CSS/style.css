@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100wh;
+    height: 100vh;
+    background: rgb(153, 214, 216);
+}
+
+.containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20vh;
+    margin-top: -150px;
+    margin-bottom: 140px;
+    background: rgba(0, 0, 0, 0.648);
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px #00000060;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.tempCF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    background: rgb(255, 174, 24);
+    width: 300px;
+    text-align: center;
+    margin-top: -35px;
+    color: rgb(0, 0, 0);
+    border-radius: 0px 0px 6px 6px;
+    border: 1px #00000039 solid;
+    font-size: 20px;
+}
+
+input {
+    height: 80px;
+    width: 300px;
+    margin: 35px;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 6px 6px 0px 0px;
+    border: 1px #0000004b solid;
+    box-shadow: 1px 1px 1px 1px #00000035;
+    outline: 0;
+}
+
+.fontMedium {
+    font-size: 16px;
+}
+.readOnly {
+    background: rgb(150, 150, 150);
+}
+
+select {
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    height: 30px;
+    width: 230px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    text-align: center;
+}
+
+main {
+    background-image: url(../IMG/entre\ nuvens\ calras.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .containerMain {
+        flex-direction: column;
+    }
+
+    header {
+        width: 80%;
+        height: 20vh;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    input {
+        height: 80px;
+        width: 100%;
+    }
+
+    .tempCF {
+        width: 100%;
+    }
+    
+    span {
+        background: rgb(255, 174, 24);
+        width: 100%;
+    }
+}
